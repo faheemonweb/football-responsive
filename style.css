@@ -164,13 +164,33 @@ footer{
     font-size: 17px;
     font-weight: 200;
 }
-.menu fa{
+.menu .fa{
+    display: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+
+}
+#check{
     display: none;
 }
 
 
 @media  only screen and (max-width:688px){
-
+.menu {
+    display: block;
+    text-align: center;
+}
+.menu ul{
+    text-align: center
+    ;
+    display: block;
+    font-size: 20px;
+}
     .top-banner.flexible-container{
         display: block;
         text-align: center;
